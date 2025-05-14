@@ -1,0 +1,37 @@
+:root{
+  --grin: rgb(5, 180, 2);
+  --Catacombs: Catacombs;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family:Catacombs;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  background: url(5.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+  @font-face {
+    font-family: Catacombs;
+    src: url("./staly/Swanston.ttf");
+  }
+  /* button{  
+    font-family:Catacombs;
+     text-align: center;
+    font-family: var(--Catacombs);
+    background: linear-gradient(-30deg, #3d0b0b 50%, #2b0808 50%);
+    margin-top: 20px;
+    width: 150px;
+    height: 35px;
+    font-size: 15px;
+    box-shadow: 1px 1px 1px var(--grin);
+    color: #f7d4d4;
+} */
+h1, p{
+  color: #f7d4d4;
+  font-family: Catacombs;
+}
