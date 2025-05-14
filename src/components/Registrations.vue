@@ -76,11 +76,11 @@ function Add() {
     locol.textErrorPorol = null
     locol.textErrorEmeil = null
     if(locol.IMG===1){
-locol.Ava="/src/components/img/avatarka1.png"
+locol.Ava="https://raw.githubusercontent.com/ViktoriaPrmknkbjbh/Online_store/refs/heads/main/src/components/img/ava1.png"
     }else if(locol.IMG===2){
-        locol.Ava="/src/components/img/avatarka2.png"
+        locol.Ava="https://raw.githubusercontent.com/ViktoriaPrmknkbjbh/Online_store/refs/heads/main/src/components/img/ava2.png"
     }else{
-        locol.Ava="/src/components/img/avatarka3.png"
+        locol.Ava="https://raw.githubusercontent.com/ViktoriaPrmknkbjbh/Online_store/refs/heads/main/src/components/img/ava3.png"
     }
     AddUsers(locol.NamePol, locol.Porol, locol.email, locol.Ava)
     locol.NamePol = ""

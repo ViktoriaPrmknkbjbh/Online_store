@@ -41,7 +41,7 @@ const favorites = computed(() => {
             <div v-for="book in favorites" :key="book.id" class="card">
               <div class="favorite-icon" @click.stop="toggleFavorite(book.id)">
                 <img
-                  :src="isBookFavorite(book.id) ? '/src/components/img/serd1.png' : '/src/components/img/serd.png'"
+                  :src="isBookFavorite(book.id) ? 'https://raw.githubusercontent.com/ViktoriaPrmknkbjbh/Online_store/refs/heads/main/src/components/img/serd1.png' : 'https://raw.githubusercontent.com/ViktoriaPrmknkbjbh/Online_store/refs/heads/main/src/components/img/serd.png'"
                   class="heart-icon"
                   alt="favorite"
                 />

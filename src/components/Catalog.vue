@@ -41,7 +41,7 @@ const filteredBooks = computed(() => {
     <div v-for="elem in filteredBooks" :key="elem.id">
       <div class="card">
         <div class="favorite-icon" @click.stop="toggleFavorite(elem.id)">
-          <img :src="isBookFavorite(elem.id) ? '/src/components/img/serd1.png' : '/src/components/img/serd.png'"
+          <img :src="isBookFavorite(elem.id) ? 'https://raw.githubusercontent.com/ViktoriaPrmknkbjbh/Online_store/refs/heads/main/src/components/img/serd1.png' : 'https://raw.githubusercontent.com/ViktoriaPrmknkbjbh/Online_store/refs/heads/main/src/components/img/serd.png'"
             class="heart-icon" alt="favorite" />
         </div>
         <RouterLink class="link-style-none with animated-button1" :to="{ name: 'Book', params: { id: elem.id } }">
